@@ -1,4 +1,4 @@
-import { useAuthContext } from "/Users/vaibhavsharma/Desktop/Chatapp/frontend/src/context/AuthContext.jsx";
+import { useAuthContext } from "../../../context/AuthContext.jsx";
 import { extractTime } from "../../../utils/extractTime.js";
 import useConversation from "../../../zustand/useConversation.js";
 
