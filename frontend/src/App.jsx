@@ -1,8 +1,8 @@
 import { Navigate, Route,Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/home/Home' 
-import Login from '/Users/vaibhavsharma/Desktop/Chatapp/frontend/src/pages/Login/Login'
-import Signup from '/Users/vaibhavsharma/Desktop/Chatapp/frontend/src/pages/signup/signup'
+import Login from './pages/Login/Login'
+import Signup from './pages/signup/signup'
 import { Toaster } from 'react-hot-toast'
 import { useAuthContext } from './context/AuthContext'
 function App() {
